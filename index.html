@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>X tweet modal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="nav">
+    <img src="img/twitter.png" alt="" class="logo">
+    <p class="rights"><b>X</b> crop Lmt <sup> ©️ ®️</sup></p>
+    </div>
+    <hr>
+    <div class="headings">
+        <span class="sub-headings">For You</span>
+        <span class="sub-headings">Following</span>
+    </div>
+    <hr>
+    <div class="home">
+        <div class="divsion-tabs">
+                <span class="options">Home</span>
+                <span class="options">Explore</span>
+                <span class="options">Notifications</span>
+                <span class="options">Messages</span>
+                <span class="options">Bookmarks</span>
+                <span class="options">Communities</span>
+                <span class="options">Profile</span>
+                <span class="options">More</span>
+                <br><br><br>
+                <button class="tweet" onclick="opentweet()">Tweet</button>
+                </div>
+
+                <div class="divsions-feed">
+                    <img src="img/1.png" alt="1" class="feed-img">
+                    <img src="img/2.png" alt="2" class="feed-img">
+                    <img src="img/3.png" alt="3" class="feed-img">
+                </div>
+
+                <div class="divsions">
+                    <img src="img/12.png" alt="21">
+                    <img src="img/11.png" alt="22">
+                    <img src="img/13.png" alt="23">
+                </div>
+    </div>
+    <div class="overlay" id="overlay1">
+        <div class="modal">
+            <img src="img/close.png" alt="close" class="close" onclick="closetweet()">
+            <input type="text" placeholder="What is happening ?!" class="type">
+            <div class="opt-holder">            
+                <div class="option">
+                    <img src="img/photo.png" alt="1" class="opt-img" style="margin-left: 20px;">
+                    <img src="img/happy.png" alt="111" class="opt-img">
+                    <img src="img/maps.png" alt="1111" class="opt-img">
+                    <img src="img/poll.png" alt="11" class="opt-img">
+                    </div>
+                        <div>
+                            <button class="btn">Drafts</button>
+                            <button class="btn-main">Tweet</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

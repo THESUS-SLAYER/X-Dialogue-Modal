@@ -1,0 +1,173 @@
+.rights
+{
+    font-size: 15px;
+}
+
+.logo
+{
+    height: 40px;
+    cursor: pointer;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: start;
+}
+
+.headings
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sub-headings
+{
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.divsion-tabs
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.home
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options
+{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.tweet
+{
+    background-color: rgb(0, 170, 255);
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.divsions-feed
+{
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.feed-img
+{
+    margin: 0;
+    padding: 0;
+}
+
+.divsions
+{
+padding: 20px;
+}
+
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.modal
+{
+    width: 550px;
+    height: 250px;
+    background-color: #fff;
+    margin: 30px auto;
+    border: none;
+    border-radius: 20px;
+}
+
+.opt-img
+{
+    height: 20px;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+.opt-holder
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn
+{
+    background-color: #fff;
+    color: #000;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.btn-main
+{
+    background-color: rgb(0, 170, 255);
+    color: #fff;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.type
+{
+    height: 120px;
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+.type::placeholder
+{
+    font-size: 30px;
+}
+
+.close
+{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: block;
+}
+
+.option
+{
+    margin-top: 10px;
+}
